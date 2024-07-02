@@ -12,6 +12,9 @@ public class TestCode {
         driver.manage().window().maximize();
         driver.get("https://demo.automationtesting.in/FileDownload.html");
         driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div[1]/a")).click();
+        driver.findElement(By.xpath("/html/body/section/div[1]/div/div/div[1]/a")).click();
+
+
 
 
 
